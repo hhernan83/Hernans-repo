@@ -1,0 +1,39 @@
+
+
+#Blue{ 
+    color: White;
+    padding:10px 50px 10px 50px;
+    width: 100;
+    Font-size: 25px;
+    Background-color: #0D47A1;
+    border: #0D47A1 solid 2px;
+   border-radius: 10px;
+}
+#Red{
+    color: White;
+    padding:10px 50px 10px 50px;
+    width: 100;
+    Font-size: 25px;
+    Background-color: #F44336;
+    Border: #F44336 solid 2px;
+    border-radius: 10px;
+}
+#Green{
+    color: White;
+    padding:10px 50px 10px 50px;
+    width: 100;
+    Font-size: 25px;
+    Background-color: #4CAF50;
+    border: #4CAF50 solid 2px;
+    border-radius: 10px;
+}
+#Yellow{
+    
+    color: White;
+    padding:10px 50px 10px 50px;
+    width: 100;
+    Font-size: 25px;
+    background-color: #FFEB3B;
+    border: #FFEB3B solid 2px;
+    border-radius: 10px;
+}

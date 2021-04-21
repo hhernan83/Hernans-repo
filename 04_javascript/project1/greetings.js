@@ -1,0 +1,1 @@
+document.querySelector("#greetings").innerHTML= "\"Hi there "+prompt("Enter your name")+", it seems that you enjoy eating "+prompt("What is your favorite snack?")+" and drinking "+prompt("What is your favorite drink?")+"!\"";

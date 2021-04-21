@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: purple;
+    /* centering our clock to the page */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* settign clock verticaly */
+     min-height:100vh; 
+    /*eliminating scroll bar action */
+    overflow:hidden;
+
+}
+/* setting our clock */
+.clock{
+    /* making a square with our clock class div */
+    width:300px;
+    height:300px;
+    background: lightblue;
+    /* creating a circle with our borderd radious */
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+}
+
+.clock .number{
+    /* current roation position */
+    --rotation:0;
+    position: absolute;
+    width:100%;
+    height:100%;
+    /* centering our nubers */
+    text-align:center;
+    /* allows us to rotate our numbers inside of our clock */
+    transform: rotate(var(--rotation));
+    /* making the numbers bigger */
+    font-size: 1.5em;
+}
+/* our numbers are benig rotated xdeg along our clock */
+.clock .number1{--rotation: 30deg;}
+.clock .number2{--rotation: 60deg;}
+.clock .number3{--rotation: 90deg;}
+.clock .number4{--rotation: 120deg;}
+.clock .number5{--rotation: 150deg;}
+.clock .number6{--rotation: 180deg;}
+.clock .number7{--rotation: 210deg;}
+.clock .number8{--rotation: 240deg;}
+.clock .number9{--rotation: 270deg;}
+.clock .number10{--rotation: 300deg;}
+.clock .number11{--rotation: 330deg;}
+
+.clock .hand{
+    --rotation:0;
+    /* sets our hands inside our clock */
+    position: absolute;
+    /* positioning hand */
+    bottom:50%;
+    left:50%;
+    background-color: black;
+    border:1px solid white;
+    /* rounds the ends of our hands at the top of the hand */
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* allows us to transform our hands from the bottom instead of its center */
+    transform-origin:bottom;
+    /* places the hands above out numbers */
+    z-index:10;
+    /* centers our hand and allows us to rotate it in javascript from the center of our clock */
+    transform: translate(-50%) rotate(calc(var(--rotation)*1deg));
+}
+/* creating a psudo elementin css */
+.clock::after{
+    /* adding content to the dom("empty string")*/
+    content: " ";
+    position: absolute;
+    background-color: black;
+    z-index:11;
+    /* creating a box */
+    width:15px;
+    height:15px;
+    /* positioning element */
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:50%;
+}
+
+/* manipulatin the classes that we have for the individual hands */
+.clock .hand.hours{
+    width:10px;
+    height:35%;
+    background-color:black;
+}
+.clock .hand.minutes{
+    width:7px;
+    height:40%;
+    background-color:black;
+}
+
+.clock .hand.seconds{
+    width:3px;
+    height:45%;
+    background-color:red;
+}
