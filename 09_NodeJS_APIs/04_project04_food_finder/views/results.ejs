@@ -1,0 +1,12 @@
+<%-include('partials/header')%>
+
+<h1>Results</h1>
+<% data.forEach(function(el){ %>
+
+<p>
+    <%- el.name %> <%- el.rating%>
+</p>
+<%})%>
+
+
+<%- include('partials/footer')%>

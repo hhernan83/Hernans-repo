@@ -39,7 +39,7 @@ body{
     /* making the numbers bigger */
     font-size: 1.5em;
 }
-/* our numbers are benig rotated xdeg along our clock */
+/* our numbers are beingg rotated xdeg along our clock */
 .clock .number1{--rotation: 30deg;}
 .clock .number2{--rotation: 60deg;}
 .clock .number3{--rotation: 90deg;}

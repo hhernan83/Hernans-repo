@@ -1,0 +1,27 @@
+<%- include ('partials/header')%>
+
+<nav class="nav">
+    <a class='nav-link' href="#">Donuts</a>
+    <a class="nav-link " href="/">Home</a>
+    <a class="nav-link" href="/about">About</a>
+    <a class="nav-link active" href="/contact">Contact</a>
+  </nav>
+
+
+  <p style='text-align: center; background-color: lightgray;'>Got suggestions on new donut flavors? shoot us a message.</p>
+  <form action="/donut">
+  <div style='text-align: center;'>
+  <input  type="text" name="Donut" id="">
+    <input type='submit' name="" id="">
+</form>
+</div>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb ">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/about">About</a></li>
+      <li class="breadcrumb-item active"><a href="/contact">Contact</a></li>
+    </ol>
+  </nav>
+
+<%- include ('partials/footer')%>

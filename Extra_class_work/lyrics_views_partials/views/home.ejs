@@ -1,0 +1,23 @@
+<%- include('partials/header')%>
+
+
+    <h1 class="text-center">Find the lyrics to your favorite songs!</h1>
+    <div class="container well">
+
+        <form action="/lyricResults" method="get">
+        <label for="artist"> Enter Artist:</label> <br>
+        <input type="search" name="artist" placeholder="Enter your artist here" id="artist">
+        <br>
+        <label for="title">Enter Song title:</label><br>
+        <input type="search" name="title" placeholder="Enter song title" id="title">
+        <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+
+    
+
+  
+
+
+      <%- include('partials/footer') %>
