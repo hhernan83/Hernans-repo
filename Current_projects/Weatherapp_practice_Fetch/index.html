@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!--Styles CSS page-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <form name="theForm" method="get">
+        <div class="container">
+            <!--Weather API information-->
+            <p id="city"></p>
+            <p id="city_id"></p>
+            <p id="lat"></p>
+            <p id="long"></p>
+            <p id="temp"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+
+            <!--National Park information-->
+            <div class="Parks">
+                <p id="fullName"></p>
+               <strong><a id="parkWebsite"></a></strong>
+                <p id="description"></p>
+                <p id="mailing"></p>
+                <p id="parkAddress"></p>
+                <p id="stateCode"></p>
+                <p id="zip"></p>
+            </div>
+            <input type="submit" id="btn" value="Check city"></input>
+        </div>
+    </form>
+        <script src="script.js"></script>
+    </body>
+</html>

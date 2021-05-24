@@ -1,0 +1,45 @@
+<%- include('partials/header')%>
+
+<h1 class="h1">Becoming a software developer</h1>
+<div class="introduction">
+    <h3 class="h3">Your drive</h3>
+    <ul >
+        <li>
+            Making Money?
+        </li>
+        <li>
+            Prefer working at home or romotely?
+        </li>
+        <li>
+            Like to challenge yourself and learn as much as possible?
+        </li>
+        <li>
+            Want something as a change of pace?
+        </li>
+        <li>
+            Enjoy working on code and creating incredible web pages?
+        </li>
+    </ul>
+</div>
+<div class="splash_image">
+    <img id="image_243" src="images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg">
+</div>
+<script>
+    var image = [
+        "florian-olivo-4hbJ-eymZ1o-unsplash.jpg",
+        "joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg"
+    ]
+    
+    var index=1;
+    
+    function rotateimage(){
+        $("#image_243").attr("src", "images/" + image[index])
+        index++;
+        if(index> image.length-1){
+            index=0
+        }
+    }
+    
+    setInterval(rotateimage, 5000)
+</script>
+<%- include('partials/footer')%>

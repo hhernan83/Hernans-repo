@@ -1,0 +1,19 @@
+<%- include('partials/loginheader')%>
+
+<div class="caption">
+    <h1>Log in</h1>
+    <form action="/search" method="GET" class="form-inline my-2 my-lg-0 caption">
+        <label for="">User Name:</label>
+        <input type="text" placeholder="Username" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+        title="Username longer than eight characters with at least one letter, at least one number and at least one special character" />
+
+
+        <label for="">Password:</label>
+        <input type="password" placeholder="Password" pattern='^(?=\D*\d)\S{6,}$'
+        title="Password longer than six characters with a least one digit and no white space allowed"/>
+
+        <button class="btn btn-success" type="submit">Submit</button>
+    </form>
+</div>
+
+<%- include('partials/footer')%>
