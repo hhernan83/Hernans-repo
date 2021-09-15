@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: cornflowerblue;
+    color: indigo;
+}
+.h1{
+    border: 3px black solid;
+    background-color: ivory;
+
+}
+
+.introduction{
+    color: ivory;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h3{
+    background-color: teal;
+    border-bottom: 3px black solid;
+    color: ivory;
+}
+
+.introduction{
+    border: 3px black solid;
+    background-color: lightblue;
+    color: darkolivegreen;
+}
+
+#image_243 {
+   height: 50%;
+   width: 40%;
+}
+
+.splash_image {
+    text-align: center;
+    margin: 20px;
+}

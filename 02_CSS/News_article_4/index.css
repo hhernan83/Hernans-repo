@@ -1,0 +1,279 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Oswald', sa;
+    background-color: #eaf0f2;
+}
+
+
+
+/* setting our properties for the navigation bar */
+.nav{
+    padding:0;
+   
+    width: 96.8%;
+    background-color: #263238;
+    height: 75px;
+    color:white;
+}
+/* now setting the propersies for the list items in the navbar */
+.nav, li {
+    height: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    display: inline-flex;
+    list-style-type: none;
+    color:white
+  }
+  /* editing the font size of the title */
+  .title{
+    font-size: 42px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  /* selecting white as the a tag text color */
+  a{
+      color:White;
+  }
+
+  /* adding dinamic background when the tabs are hovered over */
+li.headtrending:hover a.trending{
+    padding-left: 30px;
+    padding-right: 30px;
+      background-color:#546E7A ;
+  }
+  li.headtech:hover a.tech{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#546E7A ;
+}
+li.headpolitics:hover a.politics{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#546E7A ;
+}
+li.headabout:hover a.about{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#546E7A ;
+}
+li.headfaq:hover a.faq{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#546E7A ;
+}
+li.headcontact:hover a.contact{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#546E7A ;
+}
+  /* setting the properties of our submenus and setting them to not display until we need them*/
+  .submenu-1{
+      display: none;
+      height:135px;
+      width:220px;
+  }
+  /* when hovering over tab this will set the position of the submenubox and default color  */
+ li:hover .submenu-1{
+     
+    margin-top: 60px;
+     left:19.7%;
+      display: block;
+      position:absolute;
+      background: #263238;
+  }
+
+
+/* position on sub menu ul and color when hovering */
+
+ ul li .submenu-1 ul li:hover{
+     position: relative;
+    height:45px;
+    width:160px;
+    background:#7fdae0;
+  }
+
+
+
+
+
+
+
+
+/* submenu-2 */
+   .submenu-2{
+    display: none;
+    background-color: #263238;
+    height:135px;
+    width: 220px;
+}
+li:hover .submenu-2{
+    margin-top: 60px;
+    left:30%;
+    display: block;
+    position:absolute;
+    background: #263238;
+}
+
+
+ul li .submenu-2 ul li:hover{
+   position: relative;
+  height:45px;
+  width:160px;
+  background:#7fdae0;
+}
+
+
+
+
+
+
+
+
+
+/* submenu-3 */
+.submenu-3{
+    display: none;
+    background-color: #263238;
+    height:135px;
+    width: 220px;
+}
+
+li:hover .submenu-3{
+    margin-top: 60px;
+    left:37.5%;
+    display: block;
+    position:absolute;
+    background: #263238;
+}
+
+ul li .submenu-3 ul li:hover{
+   position: relative;
+  height:45px;
+  width:160px;
+  background:#7fdae0;
+}
+
+
+
+/* submenu-4 */
+.submenu-4{
+    display: none;
+    background-color: #263238;
+    height:90px;
+    width: 220px;
+}
+li:hover .submenu-4{
+    margin-top: 60px;
+    left:47%;
+    display: block;
+    position:absolute;
+    background: #263238;
+}
+ul li .submenu-4 ul li:hover{
+   position: relative;
+  height:45px;
+  width:160px;
+  background:#7fdae0;
+}
+
+
+
+
+
+
+/* .submenu-5 */
+.submenu-5{
+    display: none;
+    background-color: #263238;
+    height:90px;
+    width: 220px;
+}
+li:hover .submenu-5{
+    margin-top: 60px;
+    left:55.5%;
+    display: block;
+    position:absolute;
+    background: #263238;
+}
+ul li .submenu-5 ul li:hover{
+   position: relative;
+  height:45px;
+  width:160px;
+  background:#7fdae0;
+}
+
+
+
+
+
+
+
+
+/* .submenu-6 */
+.submenu-6{
+    display: none;
+    background-color: #263238;
+    height:90px;
+    width: 220px;
+} 
+li:hover .submenu-6{
+    margin-top: 60px;
+    left:62.5%;
+    display: block;
+    position:absolute;
+    background: #263238;
+}
+ul li .submenu-6 ul li:hover{
+   position: relative;
+  height:45px;
+  width:160px;
+  background:#7fdae0;
+}
+
+nav.footer{
+    width:100%;
+    font-size: 18px;
+    background-color: #263238;
+    text-align: center;
+    margin-top: 12%;
+ padding-top: 2%;
+ padding-bottom: 3.57%;
+  
+}
+/* the news footer sign */
+h2{
+    font-size: 28px;
+    color: #B0BEC5;
+}
+/* settign up the copyright */
+p{
+    font-size: 16px;
+    color: #B0BEC5;
+}
+
+/* the hovering footer links*/
+li.ftrending:hover a.foottrending{
+    color:#CFD8DC ;
+}
+li.ftech:hover a.foottech{
+    color:#CFD8DC ;
+}
+li.fpolitics:hover a.footpolitics{
+    color:#CFD8DC ;
+}
+li.fabout:hover a.footabout{
+    color:#CFD8DC ;
+}
+li.ffaq:hover a.footfaq{
+    color:#CFD8DC ;
+}
+li.fcontact:hover a.footcontact{
+    color:#CFD8DC ;
+}
+

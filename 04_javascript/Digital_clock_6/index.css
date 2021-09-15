@@ -1,0 +1,17 @@
+body{
+    position: relative;
+}
+
+div{
+    position:center;
+    padding: 300px;
+}
+#clock{
+    position: relative;
+    text-align: center;
+    
+    font-size: 100px;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+}

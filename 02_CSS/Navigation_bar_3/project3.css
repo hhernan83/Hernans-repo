@@ -1,0 +1,140 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background: #ECEFF1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar{
+  background-color: #01579B;
+  text-align:center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li {
+  width:287px;
+  margin:15px;
+  padding:15px;
+}
+
+.menu-bar ul li a{
+  height:70px;
+  width:287px;
+  text-decoration: none;
+  color: #fff;
+}
+ .menu-bar ul li .nav:hover{
+  
+background: #9AD1E3;
+border-radius: 5px;
+}
+
+.sub-menu-1{
+  display: none;
+  height:140px;
+  width:287px;
+  /* background:grey; */
+}
+.menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: lightgray;
+  
+  /* margin-top:15px;
+  margin-left:-15px; */
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+  display: block;
+ 
+  /* margin: 10px;*/
+} 
+.menu-bar ul li .sub-menu-1 ul li:hover{
+  height:70px;
+  width:287px;
+  background:#ACE39A;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+  display:block;
+  padding:10px;
+  background:#ACE39A;
+}
+
+.sub-menu-2{
+  display: none;
+  height:210px;
+  width:287px;
+}
+
+.menu-bar ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  background: lightgrey;
+  /* margin-top:15px;
+  margin-left:-15px; */
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul{
+  display: block;
+  /* margin: 10px;*/
+} 
+.menu-bar ul li .sub-menu-2 ul li:hover{
+  height:70px;
+  width:287px;
+  background:#ACE39A;
+}
+
+.sub-menu-3{
+  display: none;
+  height:70px;
+  width:287px;
+}
+
+.menu-bar ul li:hover .sub-menu-3{
+  display: block;
+  position: absolute;
+  background: lightgrey;
+ 
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul{
+  display: block;
+  /* margin: 10px;*/
+} 
+.menu-bar ul li .sub-menu-3 ul li:hover{
+  height:70px;
+  width:287px;
+  background:#ACE39A;
+}
+
+.sub-menu-4{
+  display: none;
+  height:140px;
+  width:287px;
+}
+
+.menu-bar ul li:hover .sub-menu-4{
+  display: block;
+  position: absolute;
+  background: lightgrey;
+ height: 140px;
+ width:287px;
+}
+
+.menu-bar ul li:hover .sub-menu-4 ul{
+  display: block;
+  /* margin: 10px;*/
+} 
+.menu-bar ul li .sub-menu-4 ul li:hover{
+  height:70px;
+  width:287px;
+  background:#ACE39A;
+}

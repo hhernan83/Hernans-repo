@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random Data APP!</h1>
+    <ul>
+        <li><a href="CreatePAge">Create Data</a></li>
+        <li><a href="ReadPage">Read Data</a></li>
+    </ul>
+    <% data.forEach(element=>{%>
+  <P>  FirstName:<%=element.fName%></P><P>Last Name:<%=element.lName%></P><P>Phone:<%=element.phone%></P>
+    <%})%>
+</body>
+</html>

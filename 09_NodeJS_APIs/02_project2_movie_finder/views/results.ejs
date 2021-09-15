@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<h1>Now Playing in a theatre near you!:</h1>
+
+<div style="  width:500px;" >
+<strong>
+    <h3>
+        <%= data.original_title %>
+    </h3>
+</strong>    
+    <p>
+        <%= data.overview%>
+    </p>
+    
+      
+    
+
+            <img  id='poster' src='https://image.tmdb.org/t/p/w500/<%= data.poster_path%>'/>
+
+       
+
+</div>
+
+
+<%- include('partials/footer') %>

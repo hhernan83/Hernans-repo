@@ -1,0 +1,23 @@
+.input{
+    height: 200px;
+    width: 400px;
+    border:2px grey solid;
+}
+
+form{
+    margin:0 auto;
+    position: fixed;
+}
+
+.input2{
+    margin-top:20px;
+    margin-left:20px;
+
+}
+button:hover{
+    background-color: lightskyblue;
+    
+}
+#wrapper{
+    padding: 30px
+}

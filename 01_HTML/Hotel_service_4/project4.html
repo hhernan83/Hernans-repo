@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Room Service</title>
+    </header>
+    <body>
+      <h1>Hotel Room Service</h1>  
+        <h2>Welcome to out hotel! We hope you enjoy your stay!</h2>
+        <p>We value you as our guest! Use this form to have a hot, delicious breakfast delivered to your room. </p>
+        
+        <form>
+        <div>
+            <fieldset>
+                <legend>Hotel Guest Contact Info</legend>
+            <label><p>First Name: <input type="text" placeholder="Enter First Name"></p>
+            </label>
+            <label> <p>Last Name: <input type="text" placeholder="Enter Last Name"></p></label>
+            <label><p>Room Number: <input type="text" placeholder="Enter your Room Number"></p></label>
+        </fieldset>
+        </div>
+
+        <div>
+            <p>What time would you like to be served at? 
+                <select>
+                    <option value="6am">6AM</option>
+                    <option value="7am">7AM</option>
+                    <option value="8am">8AM</option>
+                    <option value="9am">9AM</option>
+                    <option value="10am">10AM</option>
+                </select>
+            </p>
+            
+            <label for="browser"><p>Please choose your antree:</p></label>
+            <input list="browsers" name="browser" id="browser">
+            
+            <datalist id="browsers" style=" overflow: scroll;">
+              <option value="Waffles and Chicken">
+              <option value="Panckakes and syrup">
+              <option value="Hash Browns">
+              <option value="Bacon & Eggs">
+              <option value="Borin ol' Toast">
+            </datalist> 
+
+            <p>Would you like extra butter?</p>
+            <div>
+                
+           <lable><input type="checkbox">Yes<input type="checkbox">No<input type="checkbox">Surprise Me</lable>
+                </div>
+
+                <p>
+                    <input type="submit">
+                </p>
+           
+
+
+        </div>
+
+
+    </form>
+
+    </body>
+</html>
