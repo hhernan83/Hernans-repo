@@ -1,0 +1,38 @@
+ /* containing your styles in another file linked to the html */
+ 
+ 
+ body{
+     background-color: lightgoldenrodyellow;
+ }
+ 
+ /* rule set styling  */
+  h1{
+    font-size:30px;
+    color:darkcyan;
+}
+h2{
+    color:maroon;
+}
+/* the style written last takes presedence  */
+h2{
+    color: sienna;
+}
+/*  target an element with a specific class */
+.big{
+    font-size:60px;
+}
+/* second class */
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color:mediumslateblue;
+}
+/* selkecting all spans  */
+span{
+    color:darkturquoise;
+}
+/* selecting all spans inside a perent h1 element */
+h1 span{
+    color:burlywood;
+}
